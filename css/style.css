@@ -1,0 +1,110 @@
+* {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: hsl(218deg, 23%, 16%);
+  font-family: "Manrope";
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.containerGeral {
+  margin-top: 250px;
+  margin-left: 650px;
+  width: 630px;
+  height: 460px;
+  justify-content: center;
+  align-items: center;
+  background: hsl(218deg, 23%, 16%);
+}
+.containerGeral .containerGeradorConselho {
+  display: block;
+  background-color: hsl(217deg, 19%, 24%);
+  width: 600px;
+  height: 350px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.containerGeral .containerGeradorConselho .tituloConselho {
+  color: hsl(150deg, 100%, 66%);
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: -200px;
+}
+.containerGeral .containerGeradorConselho .containerConselho {
+  display: flex;
+  height: 10;
+  text-align: center;
+  margin-left: 8%;
+  margin-top: -54%;
+  width: 500px;
+  height: 200px;
+}
+.containerGeral .containerGeradorConselho .containerConselho .conselho {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+.containerGeral .containerDivisor {
+  display: flex;
+  width: 600px;
+  height: 100px;
+}
+.containerGeral .containerDivisor .divisorEsquerdo {
+  background: white;
+  width: 800px;
+  height: 1px;
+  opacity: 0.2;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 7px;
+}
+.containerGeral .containerDivisor .divisorCentral {
+  display: flex;
+  white-space: 10px;
+  height: 25px;
+  color: hsl(193deg, 38%, 86%);
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 13px;
+  margin-top: -10px;
+}
+.containerGeral .containerDivisor .divisorDireito {
+  background: hsl(193deg, 38%, 86%);
+  width: 800px;
+  height: 1px;
+  opacity: 0.2;
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: -140px;
+  margin-top: 7px;
+}
+.containerGeral .button {
+  position: relative;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.containerGeral .button :hover {
+  background: hsl(150deg, 100%, 66%);
+  box-shadow: 0 0 10px hsl(150deg, 100%, 66%), 0 0 15px hsl(150deg, 100%, 66%), 0 0 40px hsl(150deg, 100%, 66%);
+}
+.containerGeral .button .botaoDado {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-top: -29px;
+  border-radius: 100%;
+  border: 0px solid;
+  background: hsl(150deg, 100%, 66%);
+  margin-left: 43%;
+  cursor: pointer;
+}
+.containerGeral .button .botaoDado .dado {
+  margin-left: 12px;
+  margin-top: 17px;
+}/*# sourceMappingURL=style.css.map */
