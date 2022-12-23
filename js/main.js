@@ -16,8 +16,8 @@ async function buscaConselhoAPI() {
 
         
 
-        idConselho.innerText =' # ' + idConselho.value
-        conselho.innerText = conselho.value
+        idConselho.innerText = ' Adivice: # ' + idConselho.value
+        conselho.innerText = '"' + conselho.value + '"'
 
         buscaConselhoAPI();
         
